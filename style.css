@@ -1,0 +1,47 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Card Design */
+.card {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #1e3a8a;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: yellow;
+}
